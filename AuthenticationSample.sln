@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29020.237
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Cookie", "Cookie", "{9300EC57-57A6-4F5F-8B7A-35A44EEBAEEC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CookieAuthenticationSample", "CookieAuthenticationSample\CookieAuthenticationSample.csproj", "{19A86206-7A0E-4441-AB79-07FE721E4CFC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19A86206-7A0E-4441-AB79-07FE721E4CFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19A86206-7A0E-4441-AB79-07FE721E4CFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19A86206-7A0E-4441-AB79-07FE721E4CFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19A86206-7A0E-4441-AB79-07FE721E4CFC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{19A86206-7A0E-4441-AB79-07FE721E4CFC} = {9300EC57-57A6-4F5F-8B7A-35A44EEBAEEC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6690613-3AB5-466A-B6A2-044DACF2A32C}
+	EndGlobalSection
+EndGlobal
