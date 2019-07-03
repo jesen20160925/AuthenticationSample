@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authentication.Cookies;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
@@ -17,7 +18,8 @@ namespace CookieAuthenticationSample
 	{
 		public Startup(IConfiguration configuration)
 		{
-			Configuration = configuration;
+         
+            Configuration = configuration;
 		}
 
 		public IConfiguration Configuration { get; }
@@ -32,16 +34,17 @@ namespace CookieAuthenticationSample
 				options.MinimumSameSitePolicy = SameSiteMode.None;
 			});
 
-			#region 认证注入
-
-			services.AddAuthentication(options =>
+            #region 认证注入
+            //AuthenticationHttpContextExtensions
+            services.AddAuthentication(options =>
 				{
 					options.DefaultScheme = CookieAuthenticationDefaults.AuthenticationScheme;
 				})
 				.AddCookie(options =>
 				{
 					options.ClaimsIssuer = "Cookie";
-				});
+                    options.LoginPath = "/Home/Login";//修改默认跳转登录页 默认是/Account/Login ,详情可参考 https://docs.microsoft.com/zh-cn/aspnet/core/security/authentication/cookie?view=aspnetcore-2.2
+                });
 
 			#endregion
 

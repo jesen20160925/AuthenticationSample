@@ -37,6 +37,11 @@
                     </ul>
                 </div>
             </div>
+            <div>
+                <span>您好：@User?.Identity?.Name</span>
+
+                <a asp-controller="Home" asp-action="Logout">注销</a>
+            </div>
         </nav>
     </header>
     <div class="container">
