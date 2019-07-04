@@ -8,7 +8,7 @@ using System.Text;
 
 namespace Authentication.Infrastructure
 {
-    public class HttpUtility
+	public class HttpUtility
     {
         private HttpClient _httpClient;
         private string _baseIPAddress;

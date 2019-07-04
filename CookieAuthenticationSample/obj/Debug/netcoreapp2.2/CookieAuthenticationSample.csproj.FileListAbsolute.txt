@@ -59,3 +59,4 @@ G:\repo\AuthenticationSample\CookieAuthenticationSample\obj\Debug\netcoreapp2.2\
 G:\repo\AuthenticationSample\CookieAuthenticationSample\obj\Debug\netcoreapp2.2\CookieAuthenticationSample.dll
 G:\repo\AuthenticationSample\CookieAuthenticationSample\obj\Debug\netcoreapp2.2\CookieAuthenticationSample.pdb
 G:\repo\AuthenticationSample\CookieAuthenticationSample\obj\Debug\netcoreapp2.2\CookieAuthenticationSample.csproj.CopyComplete
+F:\Repo\AuthenticationSample\CookieAuthenticationSample\obj\Debug\netcoreapp2.2\Razor\Views\Home\Login.g.cshtml.cs
