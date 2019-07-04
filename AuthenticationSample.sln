@@ -9,7 +9,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CookieAuthenticationSample"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jwt", "Jwt", "{DF3FF2E4-F9B8-4F4B-81E8-BAD20A0071D8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "JwtAuthenticationSample", "JwtAuthenticationSample\JwtAuthenticationSample.csproj", "{E5DBB6B6-3334-473C-9635-E32F8A59A896}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "JwtAuthenticationSample", "JwtAuthenticationSample\JwtAuthenticationSample.csproj", "{E5DBB6B6-3334-473C-9635-E32F8A59A896}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SSO", "SSO", "{2F124553-3B02-4E9C-8E18-B9BE74C54015}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AuthenticationCenter", "AuthenticationCenter\AuthenticationCenter.csproj", "{1C6C67B9-0665-4BFD-B8EF-E0FC73AF4F61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Authentication.Infrastructure", "Authentication.Utility\Authentication.Infrastructure.csproj", "{1C3A9901-D944-4182-943E-C6A7E0357438}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +31,14 @@ Global
 		{E5DBB6B6-3334-473C-9635-E32F8A59A896}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E5DBB6B6-3334-473C-9635-E32F8A59A896}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E5DBB6B6-3334-473C-9635-E32F8A59A896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C6C67B9-0665-4BFD-B8EF-E0FC73AF4F61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C6C67B9-0665-4BFD-B8EF-E0FC73AF4F61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C6C67B9-0665-4BFD-B8EF-E0FC73AF4F61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C6C67B9-0665-4BFD-B8EF-E0FC73AF4F61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1C3A9901-D944-4182-943E-C6A7E0357438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C3A9901-D944-4182-943E-C6A7E0357438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C3A9901-D944-4182-943E-C6A7E0357438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C3A9901-D944-4182-943E-C6A7E0357438}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -32,6 +46,8 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{19A86206-7A0E-4441-AB79-07FE721E4CFC} = {9300EC57-57A6-4F5F-8B7A-35A44EEBAEEC}
 		{E5DBB6B6-3334-473C-9635-E32F8A59A896} = {DF3FF2E4-F9B8-4F4B-81E8-BAD20A0071D8}
+		{1C6C67B9-0665-4BFD-B8EF-E0FC73AF4F61} = {2F124553-3B02-4E9C-8E18-B9BE74C54015}
+		{1C3A9901-D944-4182-943E-C6A7E0357438} = {2F124553-3B02-4E9C-8E18-B9BE74C54015}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {A6690613-3AB5-466A-B6A2-044DACF2A32C}
